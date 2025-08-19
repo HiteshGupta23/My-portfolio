@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/about</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/experience</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/projects</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/contact</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Projects URLs -->
+  <url>
+    <loc>https://yourdomain.com/projects/sales-analysis-sql-powerbi</loc>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/projects/machine-learning-customer-churn</loc>
+  </url>
+</urlset>
