@@ -4,7 +4,7 @@
     "/projects/sales-analysis-sql-powerbi": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/projects/[slug]",
-      "dataRoute": "/_next/data/1CegnkX6pq13qDurIMenf/projects/sales-analysis-sql-powerbi.json",
+      "dataRoute": "/_next/data/wDxLEoUuOLQKYGC4-CvRc/projects/sales-analysis-sql-powerbi.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -17,7 +17,7 @@
     "/projects/machine-learning-customer-churn": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/projects/[slug]",
-      "dataRoute": "/_next/data/1CegnkX6pq13qDurIMenf/projects/machine-learning-customer-churn.json",
+      "dataRoute": "/_next/data/wDxLEoUuOLQKYGC4-CvRc/projects/machine-learning-customer-churn.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -31,9 +31,9 @@
   "dynamicRoutes": {
     "/projects/[slug]": {
       "routeRegex": "^/projects/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/1CegnkX6pq13qDurIMenf/projects/[slug].json",
+      "dataRoute": "/_next/data/wDxLEoUuOLQKYGC4-CvRc/projects/[slug].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/1CegnkX6pq13qDurIMenf/projects/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/wDxLEoUuOLQKYGC4\\-CvRc/projects/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -46,8 +46,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "0c09755dd2ee42f2e7b90ce17766ab3e",
-    "previewModeSigningKey": "2022a43ba6ddacf992edff9e01c993edb846429071c872a5ae6ae842ffa1b5a6",
-    "previewModeEncryptionKey": "b54fc1a0adc5ca39cb49f1cac858425248738e890eec7b305243b37e9667b401"
+    "previewModeId": "1207ec0af316a1cdb61f2972f478befb",
+    "previewModeSigningKey": "b05863ad9b4da07d50846ecc6b1b4cf85504ffe65c3ffcc5aecd82b0d8da8b1f",
+    "previewModeEncryptionKey": "1a2231918f3072986f08cf5314502a5002ec338d5dc9b8595d33dbe81343dba4"
   }
 }

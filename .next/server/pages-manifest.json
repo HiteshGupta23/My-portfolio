@@ -3,9 +3,9 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/about": "pages/about.html",
+  "/contact": "pages/contact.html",
   "/experience": "pages/experience.html",
   "/": "pages/index.html",
-  "/contact": "pages/contact.html",
   "/projects": "pages/projects.html",
   "/projects/[slug]": "pages/projects/[slug].js",
   "/404": "pages/404.html"
