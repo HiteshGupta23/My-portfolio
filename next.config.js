@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export', // Enables static HTML export
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: [], // Add if you have external image domains
+    unoptimized: true,
   },
-};
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+}
 
-module.exports = nextConfig;  
+module.exports = nextConfig
