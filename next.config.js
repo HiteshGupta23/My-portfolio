@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    images: {
-      domains: [] // Add domains of images if used externally
-    }
-  };
-  
-  module.exports = nextConfig;  
+  reactStrictMode: true,
+  output: 'export', // Enables static HTML export
+  images: {
+    domains: [], // Add if you have external image domains
+  },
+};
+
+module.exports = nextConfig;  
