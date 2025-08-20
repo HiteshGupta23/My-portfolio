@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact: NextPage = () => (
   <Layout title="Contact" description="Get in touch with Hitesh Gupta through email or LinkedIn.">
